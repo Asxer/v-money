@@ -15,8 +15,7 @@ export default {
   name: 'Money',
   props: {
     value: {
-      required: true,
-      type: [Number, String, null],
+      type: [Number, String],
       default: 0
     },
     masked: {

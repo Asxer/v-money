@@ -1,6 +1,10 @@
 import defaults from './options'
 
 function format (input, opt = defaults) {
+  if (input === null) {
+    return '';
+  }
+
   if (opt.allowBlank && input == '') {
     return ''
   }

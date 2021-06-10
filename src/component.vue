@@ -16,7 +16,7 @@ export default {
   props: {
     value: {
       required: true,
-      type: [Number, String],
+      type: [Number, String, null],
       default: 0
     },
     masked: {
